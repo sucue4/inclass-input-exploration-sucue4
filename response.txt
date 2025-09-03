@@ -1,0 +1,22 @@
+1. What does each function from the Scanner class do?
+
+- next:
+- nextLine:
+- nextByte:
+- nextInt:
+- nextBoolean:
+- nextFloat:
+- nextDouble:
+- nextShort:
+- nextLong:
+
+2. Think about a use-case for the following functions:
+
+You may enter the use-case after colon or on the next line. Explain why the use-case works.
+
+a. nextInt:
+b. nextLine:
+c. nextDouble:
+d. nextLong:
+
+3. In your own words, why do you think Scanner offers so many different methods to get the input from the user?
