@@ -1,22 +1,24 @@
 1. What does each function from the Scanner class do?
 
 - next: Next reads one word only. If I put Thirdy Cue for my nickname, it only reads Thirdy and prints that out. It basically reads string and stops when it detects a space.
-- nextLine:
-- nextByte:
-- nextInt:
-- nextBoolean:
-- nextFloat:
-- nextDouble:
-- nextShort:
-- nextLong:
+- nextLine: This reads the whole next line of input, including the spaces. So if I put my full name, it will print out the whole name instead of just my first name.
+- nextByte: This will read any small number between -128 to 127. So if I input my grade level (eg. 12), it will display 12 without any issue as it has enough memory for that.
+- nextInt: This will read the only integers or whole numbers and store what the user inputs if it fits this. So if I input my age, it will print out that I am 18 since it fits the limitations of the int data type.
+- nextBoolean: This reads any true or false responses. 
+- nextFloat: This will read decimals points if given by the user, but less precise than double.
+- nextDouble: This reads decimal numbers but more precise than float. This displays more decimal points for more precise measurements or data.
+- nextShort: This reads more short range integers from -32,768 to 32,767.
+- nextLong: this reads very large whole numbers from 
 
 2. Think about a use-case for the following functions:
 
 You may enter the use-case after colon or on the next line. Explain why the use-case works.
 
-a. nextInt:
-b. nextLine:
-c. nextDouble:
-d. nextLong:
+a. nextInt: Asking a User fo their age when trying to confirm if they are legal age. This works as age is a whole number and the nextInt() function reads integers directly without converting them to string.
+b. nextLine: Asking a user for their full address when trying to get their shipping address. This works as it reads the whole line including spaces and allows like a company to know where to exactly ship an item to the buyer.
+c. nextDouble: Asking a user for the price of an item. This works as the nextDouble() function can read decimals accurately and can handle more precise numbers.
+d. nextLong: Asking a customer for their phone number to sign-up for their rewards program. This works as the nextLong() function can handle much larger numbers than int.
 
 3. In your own words, why do you think Scanner offers so many different methods to get the input from the user?
+
+Scanner offers many methods to get input from users and allows dynamic data gathering. Different users might have different responses for questions. Some may input string, integers, numbers with decimals, really long numbers, etc. Scanner ensures that many different types of inputs can be read properly and there won't be any errors. 
