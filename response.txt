@@ -1,6 +1,6 @@
 1. What does each function from the Scanner class do?
 
-- next:
+- next: Next reads one word only. If I put Thirdy Cue for my nickname, it only reads Thirdy and prints that out. It basically reads string and stops when it detects a space.
 - nextLine:
 - nextByte:
 - nextInt:
